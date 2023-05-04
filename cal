@@ -1,0 +1,39 @@
+
+print(" WELCOME TO NERO'S CALC \n\n")
+
+num1 = float(input("weka number buda\n"))
+op1 = input("weka sign\n")
+num2 =float(input("weka namba ya pili\n"))
+op2 = input("weka sign tena\n")
+num3 = float(input("weka namba ya tatu\n"))
+if op1 =="+" and op2 == "+":
+    print(num1 + num2 + num3)
+elif op1 == "-" and op2 == "+":
+    print(num1 - num2 + num3)
+elif op1 == "-" and op2 == "-":
+    print(num1 - num2 - num3)
+elif op1 == "/" and op2 == "+":
+    print(num1 / num2 + num3)
+elif op1 == "/" and op2 == "-":
+    print(num1 / num2 - num3)
+elif op1 == "-" and op2 == "/":
+    print(num1 - num2 / num3)
+elif op1 =="+" and op2 == "/":
+    print(num1 + num2 / num3)
+elif op1 == "*" and op2 =="*":
+    print(num1 * num2 * num3)
+elif op1 == "*" and op2 == "+":
+    print(num1 * num2 + num3)
+elif op1 == "*" and op2 == "-":
+    print(num1 * num2 - num3)
+elif op1 == "*" and op2 == "/":
+    print(num1 * num2 / num3)
+elif op1 == "-" and op2 == "*":
+    print(num1 - num2 * num3)
+elif op1 == "+" and op2 == "*":
+    print(num1 + num2 * num3)
+elif op1 == "/" and op2 == "*":
+    print(num1 / num2 * num3)
+else:
+    print("jinga wewe")
+    
